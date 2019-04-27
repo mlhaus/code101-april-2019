@@ -1,3 +1,45 @@
 body {
     background-color: rgb(47, 116, 214);
+    margin: 0;
 }
+
+h1 {
+    color: darkblue; 
+    margin: 0; /* Removes space around title */   
+    padding: 0.5em;   
+    font-size: 3em;   
+    font-family: Lobster, Georgia, Arial;   /* text-align: center; */
+}
+
+header {
+    background-color: white;
+}
+
+nav {
+    background-color: darkblue;
+}
+
+ul {
+    margin: 0;
+    /* background-color: green; */
+    padding: 0;
+}
+
+li {
+    /* background-color: red; */
+    display: inline-block; /* This eliminates width property  */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 2em;
+    font-size: 1.2em;\
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(127, 196, 255);
+}
+
